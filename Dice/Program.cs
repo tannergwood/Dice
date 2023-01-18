@@ -77,6 +77,7 @@ namespace Dice
             //array to hold the asterisks
             string[] stars = new string[11];
 
+            //Calculate pct of total for each count and then add the string of * to another array
             for (int i = 0; i < 11; i++)
             {
                 string pctgs = "";
@@ -91,16 +92,18 @@ namespace Dice
 
             }
 
-               for (int i = 0; i < 11; i++)
-              {
+            // Print out the dice sums and the percentage ****
+            for (int i = 0; i < 11; i++)
+            {
                     int diceamt = i + 2;
                     Console.WriteLine(diceamt + ": " + stars[i]);
-               }
+            }
 
-             Console.WriteLine("\nThank you for using the dice throwing simulator. Goodbye!");
+            // Display final statement
+            Console.WriteLine("\nThank you for using the dice throwing simulator. Goodbye!");
 
 
-
+            // keep console open to see results
             Console.ReadKey();
 
 
