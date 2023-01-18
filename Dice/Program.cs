@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Author: Tanner Greenwood
+// Create a program to simulate the rolling of 2 dice displaying the percentage of times each sum of the dice was rolled
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
