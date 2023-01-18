@@ -34,6 +34,7 @@ namespace Dice
                 int num = dice1.Next(1, 7);
                 int num2 = dice1.Next(1, 7);
                 int roll = num + num2;
+
                 //Determine which value the roll falls under
                 switch (roll)
                 {
@@ -72,6 +73,7 @@ namespace Dice
                         break;
                 }
             }
+            // add a line in the output to make it pretty
             Console.Write("\n");
 
             //array to hold the asterisks
